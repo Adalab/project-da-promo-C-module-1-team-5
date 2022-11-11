@@ -12,3 +12,6 @@ REFERENCES `data_sql` (`index_sql`)
 ON DELETE CASCADE
 ON UPDATE CASCADE
 );
+
+ALTER TABLE data_xml
+MODIFY COLUMN `time`VARCHAR (20);
