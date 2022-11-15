@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Ignoramos para git los archivos .ds_store
+.DS_Store
